@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>558</width>
+    <height>658</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Python Learning</string>
+  </property>
+  <widget class="QPushButton" name="pushButtonLoad">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Načíst</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelKraj">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>35</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kraj</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxZl">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>180</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zlínský</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxSt">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>90</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Středočeský</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxJc">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Jihočeský</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxPl">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>60</y>
+     <width>199</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Plzeňský</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxKa">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Karlovarský</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxUs">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>120</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ústecký</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxLb">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Liberecký</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxKh">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Královéhradecký</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxPa">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>30</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pardubický</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxOl">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>210</y>
+     <width>200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Olomoucký</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxMs">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>180</y>
+     <width>200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Moravskoslezský</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxJm">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Jihomoravský</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxVy">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>150</y>
+     <width>200</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vysočina</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEditInfo">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>320</y>
+     <width>481</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
